@@ -95,6 +95,6 @@ public class Main {
         int intZd109 = 8;
         int intZd1010 = 9;
         float floatZd10 = (intZd101 + intZd102 + intZd103 + intZd104 + intZd105 + intZd106 + intZd107 + intZd108 + intZd109 + intZd1010);
-        System.out.println(floatZd10/10);
+        floatZd10 /= 10;
     }
 }
