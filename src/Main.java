@@ -4,6 +4,6 @@ public class Main {
     public static void main(String[] args) {
         int intOdin = 8;
         int intDva = intOdin + 3;
-        int intTri = intOdin+ intDva;
+        int intTri = intOdin + intDva;
     }
 }
