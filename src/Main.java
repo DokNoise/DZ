@@ -76,10 +76,10 @@ public class Main {
         Выведите на экран переменную, которая стоимости суммы A+B со скидкой. Отдельно выведите на экран сумму скидки от этой покупки.*/
 
         int intZd61 = 1000;
-        int intZd62 = 500;
-        float floatZd6 = intZd61 + intZd62 - (intZd61 + intZd62) / 10;
+        int intZd62 = 555;
+        float floatZd6 = intZd61 + intZd62 - (intZd61 + intZd62) * 0.1f;
         System.out.println(floatZd6);
-        System.out.println((intZd61 + intZd62) / 10);
+        System.out.println((intZd61 + intZd62) * 0.1f);
 
         /* Седьмое задание: Объявите 10 переменных типа int со значениями 0,1, 2, 3, 4, 5, 6, 7, 8, 9.
         Объявите ещё одну переменную и сохраните в неё сумму этих переменных, деленную на 10.*/
