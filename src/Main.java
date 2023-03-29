@@ -69,7 +69,7 @@ public class Main {
         Вывести эту букву маленькую букву, оставив её заглавную версию в переменной.*/
 
         char charZd5 = (char) in.nextInt(); // От 65 до 90
-        System.out.println(charZd5+32);
+        System.out.println((char)(charZd5+32));
 
         /* Шестое задание: Пусть цена товара A обычно составляет 1000 руб, и товара B составляет 500 руб.
         Если клиент покупает товары вместе, то на них действует скидка 10% на всю покупку.
@@ -94,6 +94,7 @@ public class Main {
         int intZd108 = 7;
         int intZd109 = 8;
         int intZd1010 = 9;
-        float floatZd10 = (intZd101 + intZd102 + intZd103 + intZd104 + intZd105 + intZd106 + intZd107 + intZd108 + intZd109 + intZd1010) / 10;
+        float floatZd10 = (intZd101 + intZd102 + intZd103 + intZd104 + intZd105 + intZd106 + intZd107 + intZd108 + intZd109 + intZd1010);
+        System.out.println(floatZd10/10);
     }
 }
